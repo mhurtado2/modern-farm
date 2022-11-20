@@ -1,6 +1,8 @@
 // all of this code was given to us so far 
 
-const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
+export const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
+
+//console.log (types)
 
 // dont forget when you serve it to export it the other way
 export const createPlan = () => {
@@ -34,7 +36,7 @@ const crop = function* () {
 
 //call function
 const yearlyPlan = createPlan()
-console.log(yearlyPlan)
+//console.log(yearlyPlan)
 
 
 //module.exports = { createPlan }

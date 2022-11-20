@@ -17,10 +17,15 @@ import { createPotato} from "./seeds/potato.js"
 import { createSunFlower} from "./seeds/sunflower.js"
 import { createSoyBean} from "./seeds/soybean.js"
 import { createWheat} from "./seeds/wheat.js"
+import { addPlant } from "./field.js"
+import { usePlants } from "./field.js"
+import { types } from "./plan.js"
 
 
 const yearlyPlan = createPlan()
 //console.log(yearlyPlan)
+//console.log (types)
+
 
 /*
 const createAsparagus = () => {
@@ -114,3 +119,12 @@ const createCorn = () => {
 */
 const cornHole = createCorn()
 console.log(cornHole)
+
+const plantsAdded = addPlant(types)
+console.log(plantsAdded)
+
+const plantsUsed = usePlants()
+console.log(plantsUsed)
+
+//console.log("hi")
+

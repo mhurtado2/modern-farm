@@ -16,6 +16,6 @@ export const createAsparagus = () => {
 
 // call func
 const stinkyPee = createAsparagus()
-console.log(stinkyPee)
+//console.log(stinkyPee)
 
 //module.exports { createAsparagus }

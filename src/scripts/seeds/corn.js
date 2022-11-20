@@ -25,4 +25,10 @@ export const createCorn = () => {
 
 //call function
 const cornHole = createCorn()
-console.log(cornHole)
+//console.log(cornHole)
+
+const whatIsCorn = () => {
+    console.log(Array.isArray("corn"))
+}
+
+whatIsCorn()
