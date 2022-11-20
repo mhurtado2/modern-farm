@@ -1,6 +1,10 @@
 
+
+// dont forget to export 
+// create potato func
 export const createPotato = () => {
-    // create a stinky pee obj
+    // create a potato obj
+    // 3 properties: type, height, output
     const potato = {
         type: "Potato",
         height: 32,

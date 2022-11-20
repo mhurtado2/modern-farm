@@ -4,6 +4,7 @@
 
 export const createAsparagus = () => {
     // create a stinky pee obj
+    // 3 properties: type, height, output
     const asparagus = {
         type: "Asparagus",
         height: 24,

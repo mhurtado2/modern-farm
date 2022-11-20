@@ -6,6 +6,7 @@
 //create corn func
 export const createCorn = () => {
     // create a  2 corn obj
+    // 3 properties: type, height, output 
     const corn = [
         {
             type: "Corn",
