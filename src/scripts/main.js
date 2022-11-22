@@ -20,10 +20,10 @@ import { createWheat} from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 import { types } from "./plan.js"
-
+import { plantSeeds } from "./tractor.js"
 
 const yearlyPlan = createPlan()
-//console.log(yearlyPlan)
+console.log(yearlyPlan)
 //console.log (types)
 
 

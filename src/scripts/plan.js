@@ -5,6 +5,9 @@ export const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflo
 //console.log (types)
 
 // dont forget when you serve it to export it the other way
+
+// in chapter 4 it says create plan has an index of 4 arrays before it had 
+// i changed it to it 4 below, 
 export const createPlan = () => {
     const plan = []
 

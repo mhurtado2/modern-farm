@@ -19,16 +19,13 @@ export const addPlant = (seed) => {
     // must accept seed object as input 
     // func will add seed to field
     //loop through plants
-    /*
+
     for (const seed of types) {
-        if (seed !== "corn") {
-        }
-    */
+
         grownInField.push(seed)
-        return grownInField
     }
-
-
+    return grownInField
+}
 
 export const usePlants = () => {
     return { ...grownInField }
@@ -39,5 +36,8 @@ const whatIsCorn = () => {
 }
 
 whatIsCorn()
+
+//right now it saying corn in not an array; what does this mean?
+//i think it should be an array 
 
 //call plant seed funcs
