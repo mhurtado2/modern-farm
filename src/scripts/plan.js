@@ -38,7 +38,7 @@ const crop = function* () {
 
 //call function
 const yearlyPlan = createPlan()
-console.log(yearlyPlan)
+//console.log(yearlyPlan)
 
 
 //module.exports = { createPlan }
