@@ -15,4 +15,4 @@ export const createWheat = () => {
 
 //call func
 const wheatThins = createWheat()
-console.log(wheatThins)
+//console.log(wheatThins)

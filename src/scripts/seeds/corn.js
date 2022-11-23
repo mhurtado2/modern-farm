@@ -11,12 +11,12 @@ export const createCorn = () => {
         {
             type: "Corn",
             height: 180,
-            output: 3
+            output: 6
         },
         {
             type: "Corn",
             height: 180,
-            output: 3
+            output: 6
         }
     ]
     // return obj
@@ -27,8 +27,10 @@ export const createCorn = () => {
 const cornHole = createCorn()
 //console.log(cornHole)
 
+/*
 const whatIsCorn = () => {
     console.log(Array.isArray("corn"))
 }
 
 whatIsCorn()
+*/

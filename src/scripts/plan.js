@@ -7,7 +7,6 @@ export const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflo
 // dont forget when you serve it to export it the other way
 
 // in chapter 4 it says create plan has an index of 4 arrays before it had 
-// i changed it to it 4 below, 
 export const createPlan = () => {
     const plan = []
 
@@ -39,7 +38,7 @@ const crop = function* () {
 
 //call function
 const yearlyPlan = createPlan()
-//console.log(yearlyPlan)
+console.log(yearlyPlan)
 
 
 //module.exports = { createPlan }
