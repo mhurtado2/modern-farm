@@ -1,6 +1,6 @@
 
 
-/*
+
 import { createPlan, types } from "./plan.js"
 import { createCorn } from "./seeds/corn.js"
 import { createAsparagus } from "./seeds/asparagus.js"
@@ -14,15 +14,13 @@ import { plantSeeds } from "./tractor.js"
 
 // must accept plants array as function
 
-
-
 const harvestedFoodArray = []
-const harvestPlants = (grownInField) => {
+export const harvestPlants = (grownInField) => {
     //must accept grownInField array
     // for (let i = 0; i < newTypes.length; i++) {
     //try iterating with that index loop to get desired 
     //number of stuff on page
-    for (const plant of grownInField) {
+    for (const plant of plantSeeds()) {
         for (let i = 0; i < plant.output; i++) {
             if (plant === "Potato") {
                 harvestedFoodArray.push(plant)
@@ -52,17 +50,12 @@ const harvestPlants = (grownInField) => {
     return harvestedFoodArray
 }
 
-const farmer = harvestPlants(grownInField)
+const farmer = harvestPlants()
 console.log(farmer)
 
+//const farmer = harvestPlants(grownInField)
 
-
-
-//const yearlyPlan = createPlan()
-
-//const plantThemSeeds = plantSeeds()
 
 const harvester = harvestPlants()
 console.log(harvester)
 
-*/

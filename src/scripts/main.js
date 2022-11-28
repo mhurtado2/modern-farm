@@ -13,9 +13,8 @@ import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 import { types } from "./plan.js"
 import { plantSeeds } from "./tractor.js"
-
-//import { harvestPlants } from "./harvester.js"
-//import { catalog } from "./catalog.js"
+import { harvestPlants } from "./harvester.js"
+import { catalog } from "./catalog.js"
 
 
 const yearlyPlan = createPlan()
@@ -50,9 +49,9 @@ const plantsUsed = usePlants()
 const plantThemSeeds = plantSeeds()
 console.log(plantThemSeeds)
 
-//const harvester = harvestPlants()
-//console.log(harvester)
+const harvester = harvestPlants()
+console.log(harvester)
 
-//const magazine = catalog(harvestedFoodArray)
-//console.log(magazine)
+const magazine = catalog()
+console.log(magazine)
 

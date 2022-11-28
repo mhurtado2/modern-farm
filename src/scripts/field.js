@@ -31,6 +31,7 @@ export const usePlants = () => {
     return { ...grownInField }
 }
 
+//false here 
 const whatIsCorn = () => {
     console.log(Array.isArray("Corn"))
 }
