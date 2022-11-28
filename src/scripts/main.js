@@ -13,8 +13,10 @@ import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 import { types } from "./plan.js"
 import { plantSeeds } from "./tractor.js"
-import { harvestPlants } from "./harvester.js"
-import { catalog } from "./catalog.js"
+
+//import { harvestPlants } from "./harvester.js"
+//import { catalog } from "./catalog.js"
+
 
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
@@ -38,6 +40,7 @@ console.log(sunShine)
 const cornHole = createCorn()
 console.log(cornHole)
 
+
 const plantsAdded = addPlant()
 //console.log(plantsAdded)
 
@@ -45,11 +48,11 @@ const plantsUsed = usePlants()
 //console.log(plantsUsed)
 
 const plantThemSeeds = plantSeeds()
-//console.log(plantThemSeeds)
+console.log(plantThemSeeds)
 
-const harvester = harvestPlants()
+//const harvester = harvestPlants()
 //console.log(harvester)
 
-const magazine = catalog(harvestedFoodArray)
+//const magazine = catalog(harvestedFoodArray)
 //console.log(magazine)
 

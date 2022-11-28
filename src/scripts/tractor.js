@@ -19,6 +19,7 @@ const grownInField = []
 //n as parameter or input 
 
 
+
 export const plantSeeds = (yearlyPlan) => {
     //iterate the through the rows of for
     //for (const plan of createPlan()) {
@@ -34,40 +35,40 @@ export const plantSeeds = (yearlyPlan) => {
                     //invoke factory functions 
                     const stinkyPee = createAsparagus()
                     //const plantsAdded = addPlant()
-                    grownInField.push(crop)
+                    grownInField.push(stinkyPee)
                 }
                 if (crop === "Corn") {
                     //invoke factory functions 
                     const cornHole = createCorn()
 
                     //const plantsAdded = addPlant()
-                    grownInField.push(crop)
+                    grownInField.push(cornHole)
                 }
                 if (crop === "Potato") {
                     //invoke factory functions 
                     const potatoHead = createPotato()
-                    grownInField.push(crop)
+                    grownInField.push(potatoHead)
                 }
                 if (crop === "Wheat") {
                     //invoke factory functions 
                     const wheatThins = createWheat()
 
                     //const plantsAdded = addPlant()
-                    grownInField.push(crop)
+                    grownInField.push(wheatThins)
                 }
                 if (crop === "Sunflower") {
                     //invoke factory functions 
                     const sunShine = createSunFlower()
 
                     //const plantsAdded = addPlant()
-                    grownInField.push(crop)
+                    grownInField.push(sunShine)
                 }
                 if (crop === "Soybean") {
                     //invoke factory functions 
                     const soyMilk = createSoyBean()
 
                     //const plantsAdded = addPlant()
-                    grownInField.push(crop)
+                    grownInField.push(soyMilk)
                 }
             }
             return grownInField
@@ -78,9 +79,15 @@ export const plantSeeds = (yearlyPlan) => {
 //const yearlyPlan = createPlan()
 
 const plantThemSeeds = plantSeeds()
-
-
 console.log(plantThemSeeds)
+
+
+//corn is an array here 
+const whatIsCorn = () => {
+    console.log(Array.isArray(grownInField[1]))
+}
+
+whatIsCorn()
 
 
 /*

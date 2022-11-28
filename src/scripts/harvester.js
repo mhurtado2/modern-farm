@@ -1,6 +1,6 @@
 
 
-
+/*
 import { createPlan, types } from "./plan.js"
 import { createCorn } from "./seeds/corn.js"
 import { createAsparagus } from "./seeds/asparagus.js"
@@ -13,6 +13,8 @@ import { plantSeeds } from "./tractor.js"
 // define and export harvestPlants func
 
 // must accept plants array as function
+
+
 
 const harvestedFoodArray = []
 const harvestPlants = (grownInField) => {
@@ -63,4 +65,4 @@ console.log(farmer)
 const harvester = harvestPlants()
 console.log(harvester)
 
-
+*/

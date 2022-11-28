@@ -4,14 +4,14 @@
 
 import { createPlan } from "./plan.js"
 import { types } from "./plan.js"
-import { plantSeeds } from "./tractor.js"
+
 
 
 // define var with empty array
 //this array will hold plants grown in field
 //do not export 
 
-export const grownInField = []
+const grownInField = []
 
 // make func called addplant
 
