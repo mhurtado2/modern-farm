@@ -14,24 +14,53 @@ import { plantSeeds } from "./tractor.js"
 
 // must accept plants array as function
 
-export const harvestPlants = (plants) => {
-    const seedObj = []
-    for (const plant of plantSeeds()) {
-    for (const plan of createPlan())
-        for (const crop of types) {
-            // on each plant get the value of output property
-            seedObj.push(crop.type)
+const harvestedFoodArray = []
+const harvestPlants = (grownInField) => {
+    //must accept grownInField array
+    // for (let i = 0; i < newTypes.length; i++) {
+    //try iterating with that index loop to get desired 
+    //number of stuff on page
+    for (const plant of grownInField) {
+        for (let i = 0; i < plant.output; i++) {
+            if (plant === "Potato") {
+                harvestedFoodArray.push(plant)
+            }
+            if (plant === "Asparagus") {
+                harvestedFoodArray.push(plant)
+            }
+            if (plant === "Soybean") {
+                harvestedFoodArray.push(plant)
+            }
+            if (plant === "Sunflower") {
+                harvestedFoodArray.push(plant)
+            }
+            if (plant === "Wheat") {
+                harvestedFoodArray.push(plant)
+            }
+            else {
+                harvestedFoodArray.push(plant)
+            }
         }
-        //will return an array of seed objects 
     }
-    return seedObj
+    for (const corn of createCorn()) {
+        for (let j = 3; j < corn.output; j++) {
+            harvestedFoodArray.push(corn)
+        }
+    }
+    return harvestedFoodArray
 }
 
-const yearlyPlan = createPlan()
+const farmer = harvestPlants(grownInField)
+console.log(farmer)
 
-const plantThemSeeds = plantSeeds()
 
+
+
+//const yearlyPlan = createPlan()
+
+//const plantThemSeeds = plantSeeds()
 
 const harvester = harvestPlants()
 console.log(harvester)
+
 

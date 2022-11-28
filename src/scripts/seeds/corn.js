@@ -1,13 +1,13 @@
-//The one exception is corn. 
-//The createCorn function should return an array with two identical objects in it
-//Each with the proper keys and values
+
+//when you remake your modern farm, you could push the objects 
+//onto type instead of making new array
 
 
-//create corn func
 export const createCorn = () => {
     // create a  2 corn obj
     // 3 properties: type, height, output 
     const corn = [
+
         {
             type: "Corn",
             height: 180,
@@ -23,14 +23,6 @@ export const createCorn = () => {
     return corn
 }
 
-//call function
+
 const cornHole = createCorn()
-//console.log(cornHole)
-
-/*
-const whatIsCorn = () => {
-    console.log(Array.isArray("corn"))
-}
-
-whatIsCorn()
-*/
+console.log(cornHole)

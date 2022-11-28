@@ -34,3 +34,10 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.messages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 3.5em;
+    margin: 25px 25px 25px 25px;
+}

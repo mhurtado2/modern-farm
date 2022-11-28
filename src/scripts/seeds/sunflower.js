@@ -2,6 +2,9 @@
 // dont forgot to export
 //create sunflower func
 
+
+
+
 export const createSunFlower = () => {
     // create sunflower obj
     // 3 properties: type, height, output

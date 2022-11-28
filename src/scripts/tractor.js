@@ -11,75 +11,136 @@ import { createWheat } from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 
+const grownInField = []
 
 //console.log(yearlyPlan)
 //define and export plantSeeds function 
 // must accept planting years pla
 //n as parameter or input 
 
-const plants = []
 
+export const plantSeeds = (yearlyPlan) => {
+    //iterate the through the rows of for
+    //for (const plan of createPlan()) {
+        //for (const grownInField of addPlant()) {
+
+            //as you iterate through food types
+            //the plan is an array
+            //how to iterate parent and child arrays
+
+            for (const crop of types) {
+
+                if (crop === "Asparagus") {
+                    //invoke factory functions 
+                    const stinkyPee = createAsparagus()
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Corn") {
+                    //invoke factory functions 
+                    const cornHole = createCorn()
+
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Potato") {
+                    //invoke factory functions 
+                    const potatoHead = createPotato()
+                    grownInField.push(crop)
+                }
+                if (crop === "Wheat") {
+                    //invoke factory functions 
+                    const wheatThins = createWheat()
+
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Sunflower") {
+                    //invoke factory functions 
+                    const sunShine = createSunFlower()
+
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Soybean") {
+                    //invoke factory functions 
+                    const soyMilk = createSoyBean()
+
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+            }
+            return grownInField
+        }
+    
+
+
+//const yearlyPlan = createPlan()
+
+const plantThemSeeds = plantSeeds()
+
+
+console.log(plantThemSeeds)
+
+
+/*
 export const plantSeeds = (plan) => {
     //iterate the through the rows of for
     for (const plan of createPlan()) {
         //as you iterate through food types
-        //the plan is an array
-        //how to iterate parent and child arrays
-        for (const crop of types) {
+        for (const grownInField of addPlant()) {
 
-            if (crop === "Asparagus") {
-                //invoke factory functions 
-                const stinkyPee = createAsparagus()
+            //the plan is an array
+            //how to iterate parent and child arrays
+            for (const crop of types) {
 
-                //const plantsAdded = addPlant()
-                plants.push(crop)
-            }
-            if (crop === "Corn") {
-                //invoke factory functions 
-                const cornHole = createCorn()
+                if (crop === "Asparagus") {
+                    //invoke factory functions
+                    const stinkyPee = createAsparagus()
 
-                //const plantsAdded = addPlant()
-                plants.push(crop)
-            }
-            if (crop === "Potato") {
-                //invoke factory functions 
-                const potatoHead = createPotato()
-                plants.push(crop)
-            }
-            if (crop === "Wheat") {
-                //invoke factory functions 
-                const wheatThins = createWheat()
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Corn") {
+                    //invoke factory functions
+                    const cornHole = createCorn()
 
-                //const plantsAdded = addPlant()
-                plants.push(crop)
-            }
-            if (crop === "Sunflower") {
-                //invoke factory functions 
-                const sunShine = createSunFlower()
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Potato") {
+                    //invoke factory functions
+                    const potatoHead = createPotato()
+                    grownInField.push(crop)
+                }
+                if (crop === "Wheat") {
+                    //invoke factory functions
+                    const wheatThins = createWheat()
 
-                //const plantsAdded = addPlant()
-               plants.push(crop)
-            }
-            if (crop === "Soybean") {
-                //invoke factory functions 
-                const soyMilk = createSoyBean()
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Sunflower") {
+                    //invoke factory functions
+                    const sunShine = createSunFlower()
 
-                //const plantsAdded = addPlant()
-                plants.push(crop)
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
+                if (crop === "Soybean") {
+                    //invoke factory functions
+                    const soyMilk = createSoyBean()
+
+                    //const plantsAdded = addPlant()
+                    grownInField.push(crop)
+                }
             }
         }
     }
-    return plants
+    return grownInField
 }
+*/
 
-
-
-
-const yearlyPlan = createPlan()
-
-
-const plantThemSeeds = plantSeeds()
-//console.log(plantThemSeeds)
 
 
 

@@ -1,14 +1,6 @@
 console.log("Welcome to the main module")
 
-/*
-const { createPlan } = require("./plan.js")
-const { createCorn} = require("./seeds/corn.js")
-const { createAsparagus} = require("./seeds/asparagus.js")
-const { createPotato} = require("./seeds/potato.js")
-const { createSunFlower} = require("./seeds/sunflower.js")
-const { createSoyBean} = require("./seeds/soybean.js")
-const { createWheat} = require("./seeds/wheat.js")
-*/
+
 
 import { createPlan } from "./plan.js"
 import { createCorn} from "./seeds/corn.js"
@@ -22,6 +14,7 @@ import { usePlants } from "./field.js"
 import { types } from "./plan.js"
 import { plantSeeds } from "./tractor.js"
 import { harvestPlants } from "./harvester.js"
+import { catalog } from "./catalog.js"
 
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
@@ -46,13 +39,17 @@ const cornHole = createCorn()
 console.log(cornHole)
 
 const plantsAdded = addPlant()
-console.log(plantsAdded)
+//console.log(plantsAdded)
 
 const plantsUsed = usePlants()
-console.log(plantsUsed)
+//console.log(plantsUsed)
 
 const plantThemSeeds = plantSeeds()
 //console.log(plantThemSeeds)
 
 const harvester = harvestPlants()
 //console.log(harvester)
+
+const magazine = catalog(harvestedFoodArray)
+//console.log(magazine)
+

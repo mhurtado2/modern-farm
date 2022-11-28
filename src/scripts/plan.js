@@ -2,7 +2,6 @@
 
 export const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
-//console.log (types)
 
 // dont forget when you serve it to export it the other way
 
@@ -40,5 +39,3 @@ const crop = function* () {
 const yearlyPlan = createPlan()
 //console.log(yearlyPlan)
 
-
-//module.exports = { createPlan }
