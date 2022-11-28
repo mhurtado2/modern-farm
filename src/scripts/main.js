@@ -11,47 +11,60 @@ import { createSoyBean} from "./seeds/soybean.js"
 import { createWheat} from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
-import { types } from "./plan.js"
 import { plantSeeds } from "./tractor.js"
-import { harvestPlants } from "./harvester.js"
-import { catalog } from "./catalog.js"
+//import { harvestPlants } from "./harvester.js"
+//import { catalog } from "./catalog.js"
 
 
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
 
-
 const stinkyPee = createAsparagus()
-console.log(stinkyPee)
+//console.log(stinkyPee)
 
 const potatoHead = createPotato()
-console.log(potatoHead)
+//console.log(potatoHead)
 
 const wheatThins = createWheat()
-console.log(wheatThins)
+//console.log(wheatThins)
 
 const soyMilk = createSoyBean()
-console.log(soyMilk)
+//console.log(soyMilk)
 
 const sunShine = createSunFlower()
-console.log(sunShine)
+//console.log(sunShine)
 
 const cornHole = createCorn()
-console.log(cornHole)
+//console.log(cornHole)
 
 
-const plantsAdded = addPlant()
-//console.log(plantsAdded)
+/*
+const plantsAdded1 = addPlant(cornHole)
+console.log(plantsAdded1)
+const plantsAdded2 = addPlant(stinkyPee)
+console.log(plantsAdded2)
+const plantsAdded3 = addPlant(potatoHead)
+console.log(plantsAdded3)
+const plantsAdded4 = addPlant(sunShine)
+console.log(plantsAdded4)
+const plantsAdded5 = addPlant(soyMilk)
+console.log(plantsAdded5)
+const plantAdded6 = addPlant(wheatThins)
+console.log(plantAdded6)
+
+
+
+/* // this does not return anything so you get undefined
+const plantThemSeeds = plantSeeds(yearlyPlan)
+console.log(plantThemSeeds)
+*/
 
 const plantsUsed = usePlants()
-//console.log(plantsUsed)
+console.log(plantsUsed)
 
-const plantThemSeeds = plantSeeds()
-console.log(plantThemSeeds)
+//const farmer = harvestPlants()
+//console.log(farmer)
 
-const harvester = harvestPlants()
-console.log(harvester)
-
-const magazine = catalog()
-console.log(magazine)
+//const magazine = catalog()
+//console.log(magazine)
 

@@ -1,9 +1,11 @@
-import { harvestPlants } from "./harvester.js"
+
+/*
+import { harvestPlants, harvestedFoodArray } from "./harvester.js"
 
 
-export const catalog = (harvestedFoodArray) => {
+export const catalog = (farmer) => {
     let catalogHTMLWrap = ''
-    for (const food of harvestPlants()) {
+    for (const food of harvestedFoodArray) {
         catalogHTMLWrap += `<section class="plant"> ${food.type}</section>`
     }
     return catalogHTMLWrap
@@ -18,3 +20,4 @@ console.log(magazine)
 
 const parentHTMLElement = document.querySelector(".messages")
 parentHTMLElement.innerHTML = catalog()
+*/

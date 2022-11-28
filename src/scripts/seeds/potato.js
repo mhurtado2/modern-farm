@@ -15,5 +15,5 @@ export const createPotato = () => {
 }
 
 const potatoHead = createPotato()
-console.log(potatoHead)
+//console.log(potatoHead)
 

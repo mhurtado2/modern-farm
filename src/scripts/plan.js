@@ -1,6 +1,8 @@
 // all of this code was given to us so far 
 
-export const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
+
+//export you exported types before not sure if you can
+const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
 
 // dont forget when you serve it to export it the other way

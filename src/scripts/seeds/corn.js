@@ -25,4 +25,4 @@ export const createCorn = () => {
 
 
 const cornHole = createCorn()
-console.log(cornHole)
+//console.log(cornHole)
