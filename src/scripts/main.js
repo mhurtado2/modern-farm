@@ -20,22 +20,22 @@ const yearlyPlan = createPlan()
 console.log(yearlyPlan)
 
 const stinkyPee = createAsparagus()
-//console.log(stinkyPee)
+console.log(stinkyPee)
 
 const potatoHead = createPotato()
-//console.log(potatoHead)
+console.log(potatoHead)
 
 const wheatThins = createWheat()
-//console.log(wheatThins)
+console.log(wheatThins)
 
 const soyMilk = createSoyBean()
-//console.log(soyMilk)
+console.log(soyMilk)
 
 const sunShine = createSunFlower()
-//console.log(sunShine)
+console.log(sunShine)
 
 const cornHole = createCorn()
-//console.log(cornHole)
+console.log(cornHole)
 
 
 /*
@@ -51,13 +51,12 @@ const plantsAdded5 = addPlant(soyMilk)
 console.log(plantsAdded5)
 const plantAdded6 = addPlant(wheatThins)
 console.log(plantAdded6)
-
-
-
-/* // this does not return anything so you get undefined
-const plantThemSeeds = plantSeeds(yearlyPlan)
-console.log(plantThemSeeds)
 */
+
+
+/// this does not return anything so you get undefined
+
+const plantThemSeeds = plantSeeds(yearlyPlan)
 
 const plantsUsed = usePlants()
 console.log(plantsUsed)

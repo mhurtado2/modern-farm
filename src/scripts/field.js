@@ -48,10 +48,10 @@ export const usePlants = () => {
 }
 
 
-
+/*
 const plantsUsed = usePlants()
 console.log(plantsUsed)
-
+*/
 
 
 //right now it saying corn in not an array; what does this mean?

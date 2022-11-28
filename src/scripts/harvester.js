@@ -1,5 +1,5 @@
-
 /*
+
 
 import { createPlan } from "./plan.js"
 import { createCorn } from "./seeds/corn.js"
@@ -44,10 +44,10 @@ export const harvestPlants = (plantsUsed) => {
     }
     return harvestedFoodArray
 }
-
+/*
 const farmer = harvestPlants()
 console.log(farmer)
-
+*/
 //const farmer = harvestPlants(grownInField)
 
-*/
+
