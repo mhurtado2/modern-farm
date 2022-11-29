@@ -16,7 +16,7 @@ import { addPlant } from "./field.js"
 import { plantSeeds } from "./tractor.js"
 import { usePlants } from "./field.js"
 import { harvestPlants } from "./harvester.js"
-//import { catalog } from "./catalog.js"
+import { catalog } from "./catalog.js"
 
 const yearlyPlan = createPlan()
 //console.log(yearlyPlan)
@@ -57,12 +57,12 @@ const plantAdded6 = addPlant(wheatThins)
 plantSeeds(yearlyPlan)
 
 const plantsUsed = usePlants()
-//console.log(plantsUsed)
+console.log(plantsUsed)
 
 
 const harvested = harvestPlants(plantsUsed)
 console.log(harvested)
 
-//const magazine = catalog()
-//console.log(magazine)
+const parentHTMLElement = document.querySelector(".messages")
+parentHTMLElement.innerHTML = catalog(harvested)
 

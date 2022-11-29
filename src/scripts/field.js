@@ -47,7 +47,7 @@ export const addPlant = (seedObj) => {
 
 
 export const usePlants = () => {
-    return { ...grownInField }
+    return [...grownInField]
 }
 
 

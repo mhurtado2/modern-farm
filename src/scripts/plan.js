@@ -37,7 +37,5 @@ const crop = function* () {
     }
 }()
 
-//call function
-//const yearlyPlan = createPlan()
-//console.log(yearlyPlan)
+
 
