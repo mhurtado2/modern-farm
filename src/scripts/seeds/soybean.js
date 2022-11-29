@@ -14,5 +14,5 @@ export const createSoyBean = () => {
 }
 
 //call func
-const soyMilk = createSoyBean()
+//const soyMilk = createSoyBean()
 //console.log(soyMilk)

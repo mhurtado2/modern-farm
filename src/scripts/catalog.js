@@ -3,7 +3,7 @@
 import { harvestPlants, harvestedFoodArray } from "./harvester.js"
 
 
-export const catalog = (farmer) => {
+export const catalog = (harvested) => {
     let catalogHTMLWrap = ''
     for (const food of harvestedFoodArray) {
         catalogHTMLWrap += `<section class="plant"> ${food.type}</section>`

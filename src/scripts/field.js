@@ -11,12 +11,15 @@ import { createSunFlower } from "./seeds/sunflower.js"
 import { createSoyBean } from "./seeds/soybean.js"
 import { createWheat } from "./seeds/wheat.js"
 
+/*
 let stinkyPee = createAsparagus()
 const cornHole = createCorn()
 const potatoHead = createPotato()
 const sunShine = createSunFlower()
 const soyMilk = createSoyBean()
 const wheatThins = createWheat()
+*/
+
 // define var with empty array
 //this array will hold plants grown in field
 //do not export 
@@ -48,10 +51,10 @@ export const usePlants = () => {
 }
 
 
-/*
-const plantsUsed = usePlants()
-console.log(plantsUsed)
-*/
+
+//const plantsUsed = usePlants()
+//console.log(plantsUsed)
+
 
 
 //right now it saying corn in not an array; what does this mean?

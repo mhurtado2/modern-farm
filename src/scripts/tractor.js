@@ -11,20 +11,10 @@ import { createWheat } from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlants } from "./field.js"
 
-//console.log(yearlyPlan)
-//define and export plantSeeds function 
-// must accept planting years pla
-//n as parameter or input 
-//const planSeedArray = []
 
 export const plantSeeds = (yearlyPlan) => {
-    //iterate the through the rows of for
-    //for (const plan of createPlan()) {
-    //for (const grownInField of addPlant()) {
-    //as you iterate through food types
-    //the plan is an array
+  
     //how to iterate parent and child arrays
-    //should you add in the plants function instead of types
     for (const row of yearlyPlan) {
         for (const crop of row) {
             if (crop === "Asparagus") {

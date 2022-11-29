@@ -18,5 +18,5 @@ export const createSunFlower = () => {
 }
 
 //call func
-const sunShine = createSunFlower()
+//const sunShine = createSunFlower()
 //console.log(sunShine)

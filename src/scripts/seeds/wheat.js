@@ -14,5 +14,5 @@ export const createWheat = () => {
 }
 
 //call func
-const wheatThins = createWheat()
+//const wheatThins = createWheat()
 //console.log(wheatThins)
