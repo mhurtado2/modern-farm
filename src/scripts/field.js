@@ -1,24 +1,4 @@
 
-// import plant seeds
-
-
-//import { createPlan } from "./plan.js"
-
-import { createCorn } from "./seeds/corn.js"
-import { createAsparagus } from "./seeds/asparagus.js"
-import { createPotato } from "./seeds/potato.js"
-import { createSunFlower } from "./seeds/sunflower.js"
-import { createSoyBean } from "./seeds/soybean.js"
-import { createWheat } from "./seeds/wheat.js"
-
-/*
-let stinkyPee = createAsparagus()
-const cornHole = createCorn()
-const potatoHead = createPotato()
-const sunShine = createSunFlower()
-const soyMilk = createSoyBean()
-const wheatThins = createWheat()
-*/
 
 // define var with empty array
 //this array will hold plants grown in field
@@ -43,19 +23,12 @@ export const addPlant = (seedObj) => {
     }
 }
 
-//might need to add a loop iterating through corn here 
-
-
+//make a copy of grown in field; make sure you are copying array 
+//not an object
 export const usePlants = () => {
     return [...grownInField]
 }
 
 
 
-//const plantsUsed = usePlants()
-//console.log(plantsUsed)
 
-
-
-//right now it saying corn in not an array; what does this mean?
-//i think it should be an array 

@@ -2,7 +2,6 @@
 // dont forget to export it new way
 //export 
 
-
 export const createAsparagus = () => {
     // create a stinky pee obj
     // 3 properties: type, height, output
@@ -16,9 +15,6 @@ export const createAsparagus = () => {
     return asparagus
 }
 
-// call func
-//let stinkyPee = createAsparagus()
-//console.log(stinkyPee)
 
 
 

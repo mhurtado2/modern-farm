@@ -14,7 +14,7 @@ export const harvestPlants = (plantsArray) => {
             }
         }
         else {
-            for (let j = 0; j < plant.output; j++) {
+            for (let i = 0; i < plant.output; i++) {
                 harvestedFoodArray.push(plant)
             }
         }

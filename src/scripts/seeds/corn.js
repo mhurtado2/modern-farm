@@ -1,7 +1,6 @@
 
-//when you remake your modern farm, you could push the objects 
-//onto type instead of making new array
 
+//export func
 
 export const createCorn = () => {
     // create a  2 corn obj
@@ -23,6 +22,3 @@ export const createCorn = () => {
     return corn
 }
 
-
-//const cornHole = createCorn()
-//console.log(cornHole)

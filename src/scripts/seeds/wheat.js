@@ -12,7 +12,3 @@ export const createWheat = () => {
     // return obj
     return wheat
 }
-
-//call func
-//const wheatThins = createWheat()
-//console.log(wheatThins)

@@ -1,9 +1,4 @@
 
-// dont forgot to export
-//create sunflower func
-
-
-
 
 export const createSunFlower = () => {
     // create sunflower obj
@@ -17,6 +12,4 @@ export const createSunFlower = () => {
     return sunflower
 }
 
-//call func
-//const sunShine = createSunFlower()
-//console.log(sunShine)
+
