@@ -4,8 +4,8 @@
 import { createCorn } from "./seeds/corn.js"
 import { createAsparagus } from "./seeds/asparagus.js"
 import { createPotato } from "./seeds/potato.js"
-import { createSunFlower } from "./seeds/sunflower.js"
-import { createSoyBean } from "./seeds/soybean.js"
+import { createSunflower } from "./seeds/sunflower.js"
+import { createSoybean } from "./seeds/soybean.js"
 import { createWheat } from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 
@@ -35,7 +35,7 @@ export const plantSeeds = (yearlyPlan) => {
                 //call the addPlant function
                 addPlant(potatoHead)
             }
-            else if (crop === "Wheat") {
+            else if (crop.includes("Wheat")) {
                 //invoke factory functions 
                 const wheatThins = createWheat()
                 //to access array of grown in field 
@@ -45,7 +45,7 @@ export const plantSeeds = (yearlyPlan) => {
             }
             else if (crop.includes("Sunflower")) {
                 //invoke factory functions 
-                const sunShine = createSunFlower()
+                const sunShine = createSunflower()
               
                   //to access array of grown in field 
                 //call the addPlant function
@@ -54,7 +54,7 @@ export const plantSeeds = (yearlyPlan) => {
             }
             else if (crop.includes("Soybean")) {
                 //invoke factory functions 
-                const soyMilk = createSoyBean()
+                const soyMilk = createSoybean()
                   //to access array of grown in field 
                 //call the addPlant function
                 addPlant(soyMilk)

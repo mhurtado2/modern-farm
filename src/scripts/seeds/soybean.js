@@ -1,10 +1,11 @@
 
 
-export const createSoyBean = () => {
+export const createSoybean = () => {
     // create a soybean
     // 3 properties: type, height, output
     const soybean = {
-        type: "SoyBean",
+        id: 1,
+        type: "Soybean",
         height: 20,
         output: 4
     }

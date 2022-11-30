@@ -9,6 +9,8 @@ import { catalog } from "./catalog.js"
 const yearlyPlan = createPlan()
 //console.log(yearlyPlan)
 
+
+
 plantSeeds(yearlyPlan)
 
 const plantsUsed = usePlants()

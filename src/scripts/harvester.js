@@ -1,15 +1,15 @@
 
 
 
-const harvestedFoodArray = []
 
 export const harvestPlants = (plantsArray) => {
 
+    const harvestedFoodArray = []
 
     for (const plant of plantsArray) {
 
-        if (plant.type === "Corn") {
-            for (let i = 0; i < plant.output/2; i++) {
+        if (plant.type.includes("Corn")) {
+            for (let i = 0; i < plant.output / 2; i++) {
                 harvestedFoodArray.push(plant)
             }
         }
